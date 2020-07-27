@@ -1,4 +1,4 @@
-FROM lancachenet/ubuntu-nginx:latest
+FROM poeticdeath/ubuntu-nginx:latest
 MAINTAINER LanCache.Net Team <team@lancache.net>
 
 ENV GENERICCACHE_VERSION=2 \    
