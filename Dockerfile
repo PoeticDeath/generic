@@ -31,5 +31,6 @@ RUN rm /etc/nginx/sites-enabled/*; \
 VOLUME ["/data/logs", "/data/cache", "/var/www"]
 
 EXPOSE 80
+EXPOSE 443
 
 WORKDIR /scripts
